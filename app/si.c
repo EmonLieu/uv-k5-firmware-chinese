@@ -3,7 +3,6 @@
 #include "../driver/si473x.h"
 #include "../helper/rds.h"
 #include "../misc.h"
-#include "app/spectrum.h"
 
 //
 // Created by RUPC on 2024/3/10.
@@ -63,6 +62,8 @@ static SI47XX_SsbFilterBW ssbBw = SI47XX_SSB_BW_3_kHz;
 static int8_t currentBandIndex = -1;
 bool SNR_flag = true;
 bool SI_run = true;
+
+#include "app/spectrum.h"
 typedef struct // Band data
 {
     const char *bandName; // Bandname
