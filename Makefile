@@ -68,8 +68,8 @@ ENABLE_WARNING 				  ?= 1
 ENABLE_MESSENGER              			= 0
 ENABLE_MESSENGER_DELIVERY_NOTIFICATION	= 0
 ENABLE_MESSENGER_NOTIFICATION			= 0
-ENABLE_4732 =0
-ENABLE_4732SSB =0
+ENABLE_4732 = 1
+ENABLE_4732SSB =1
 
 ENABLE_DOPPLER               =0
 #############################################################
@@ -688,4 +688,5 @@ else # 类 Unix 系统（Linux, macOS, 等）
 	chmod +x del_linux.sh
 	sh ./del_linux.sh
 endif
+
 
